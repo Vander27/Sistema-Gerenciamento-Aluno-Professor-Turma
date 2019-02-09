@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Modelagem de entidades", "0 - Modelagem de entidades", "{656E5E74-6DAE-4036-8BF6-A648A19EAC30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Sistema", "1 - Sistema", "{3973373F-7A6C-45AE-AB62-B2E14AE3F0FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 - Camada de Apresentação", "1.1 - Camada de Apresentação", "{3F3D16E2-F648-46DF-8C5E-CE26D8FA18AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2 - Camada de Serviços", "1.2 - Camada de Serviços", "{618622FA-6FAF-4643-8048-ABA68BF2AE68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.3 - Camada de Acesso a Dados", "1.3 - Camada de Acesso a Dados", "{A9EF7639-4A59-4DE4-98CD-C630092C8D59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto.Entities", "Projeto.Entities\Projeto.Entities.csproj", "{FBD21C69-4BD4-42C4-9F1D-9F4857EC1672}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto.Services", "Projeto.Services\Projeto.Services.csproj", "{2EDC4D0F-17E3-4D49-B1B4-63A69BE590CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto.Repositories", "Projeto.Repositories\Projeto.Repositories.csproj", "{FBA0490A-03EC-4F4A-9626-397C753FE22A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto.Presentation", "Projeto.Presentation\Projeto.Presentation.csproj", "{0A75A4B9-7376-4D1D-9A7E-0D8F23EDD6F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBD21C69-4BD4-42C4-9F1D-9F4857EC1672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD21C69-4BD4-42C4-9F1D-9F4857EC1672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD21C69-4BD4-42C4-9F1D-9F4857EC1672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD21C69-4BD4-42C4-9F1D-9F4857EC1672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EDC4D0F-17E3-4D49-B1B4-63A69BE590CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EDC4D0F-17E3-4D49-B1B4-63A69BE590CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EDC4D0F-17E3-4D49-B1B4-63A69BE590CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EDC4D0F-17E3-4D49-B1B4-63A69BE590CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA0490A-03EC-4F4A-9626-397C753FE22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA0490A-03EC-4F4A-9626-397C753FE22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA0490A-03EC-4F4A-9626-397C753FE22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA0490A-03EC-4F4A-9626-397C753FE22A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A75A4B9-7376-4D1D-9A7E-0D8F23EDD6F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A75A4B9-7376-4D1D-9A7E-0D8F23EDD6F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A75A4B9-7376-4D1D-9A7E-0D8F23EDD6F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A75A4B9-7376-4D1D-9A7E-0D8F23EDD6F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F3D16E2-F648-46DF-8C5E-CE26D8FA18AE} = {3973373F-7A6C-45AE-AB62-B2E14AE3F0FA}
+		{618622FA-6FAF-4643-8048-ABA68BF2AE68} = {3973373F-7A6C-45AE-AB62-B2E14AE3F0FA}
+		{A9EF7639-4A59-4DE4-98CD-C630092C8D59} = {3973373F-7A6C-45AE-AB62-B2E14AE3F0FA}
+		{FBD21C69-4BD4-42C4-9F1D-9F4857EC1672} = {656E5E74-6DAE-4036-8BF6-A648A19EAC30}
+		{2EDC4D0F-17E3-4D49-B1B4-63A69BE590CD} = {618622FA-6FAF-4643-8048-ABA68BF2AE68}
+		{FBA0490A-03EC-4F4A-9626-397C753FE22A} = {A9EF7639-4A59-4DE4-98CD-C630092C8D59}
+		{0A75A4B9-7376-4D1D-9A7E-0D8F23EDD6F7} = {3F3D16E2-F648-46DF-8C5E-CE26D8FA18AE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEF8A298-3FAE-40FF-9E88-F683E5E577C6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html ng-app="app-aula">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <!-- folhas de estilo CSS -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+<body class="container">
+
+    <!-- INICIO DO MENU -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Projeto WebApi / AngularJS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">  
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html">Página inicial</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Alunos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#aluno/cadastro">Cadastrar Alunos</a>
+                        <a class="dropdown-item" href="#aluno/consulta">Consultar Alunos</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Professores
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#professor/cadastro">Cadastrar Professores</a>
+                        <a class="dropdown-item" href="#professor/consulta">Consultar Professores</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Turmas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#turma/cadastro">Cadastrar Turmas</a>
+                        <a class="dropdown-item" href="#turma/consulta">Consultar Turmas</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- FIM DO MENU -->
+
+    <!-- local para exibição das páginas -->
+    <div style="padding: 20px;">
+        <div ng-view></div>
+    </div>
+    
+
+    <!-- arquivos javascript -->
+    <script src="Scripts/jquery-3.0.0.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-route.min.js"></script>
+    <script src="App/routes.js"></script>
+
+    <script src="App/Controllers/Aluno/aluno-cadastro-controller.js"></script>
+
+</body>
+</html>

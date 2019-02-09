@@ -1,0 +1,31 @@
+﻿<h3>Cadastro de Alunos</h3>
+<hr/>
+
+<div class="row">
+    <div class="col-md-3">
+
+        <label>Nome do Aluno:</label>
+        <input type="text" class="form-control"
+               ng-model="aluno.Nome"/>
+        <br/>
+
+        <label>Email:</label>
+        <input type="text" class="form-control"
+               ng-model="aluno.Email"/>
+        <br />
+
+        <label>Data de Nascimento:</label>
+        <input type="date" class="form-control"
+               ng-model="aluno.DataNascimento"/>
+        <br />
+
+        <button class="btn btn-success" ng-click="cadastrar()">
+            Cadastrar Aluno
+        </button>
+        <br/>
+        <br/>
+
+        <strong>{{mensagem}}</strong>
+
+    </div>
+</div>
